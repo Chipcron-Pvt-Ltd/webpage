@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Design.Diva</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "resources/normalize.css">
+    <!-- font -->
+    <link rel = "stylesheet" href = "resources/font.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- magnific popup -->
+    <link rel = "stylesheet" href = "resources/Magnific-Popup-master/dist/magnific-popup.css">
+    <!-- owl carousel -->
+    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <!-- animate css -->
+    <link rel = "stylesheet" href = "resources/animate.css-main/animate.css">
+    <!-- custom (main) css -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    
+    <!-- header -->
+    <header class = "header" id = "intro">
+      <nav class = "navbar">
+        <div class = "container">
+          <div class = "brand-and-toggler">
+            <a href = "index.html" class = "navbar-brand">
+              <img src="./assets/chipcronnamewithtag.png" alt="CHIPCRON" style="width: 200px; height: 50px;" />
+              <!-- Design<span>.</span>Diva -->
+            </a>
+            <button type = "button" class = "navbar-toggler" id = "navbar-toggler">
+              <i class = "fas fa-bars"></i>
+            </button>
+          </div>
+
+          <div class = "navbar-collapse">
+            <ul class = "navbar-nav">
+              <li class = "nav-item">
+                <a href = "#intro" class = "nav-link">intro</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#feature" class = "nav-link">feature</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#team" class = "nav-link">team</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#pricing" class = "nav-link">program</a>
+              </li>
+              <!-- <li class = "nav-item">
+                <a href = "#testimonial" class = "nav-link">testimonial</a>
+              </li> -->
+              <li class = "nav-item">
+                <a href = "#contact" class = "nav-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class = "hero-div center container">
+        <h1>We Design Customizable and Reconfigurable <span>SoCs</span></h1>
+        <p class = "animate__animated animate__fadeInUp animate__slow">Your Vision, Our Innovation.</p>
+
+        <div class = "hero-btns animate__animated animate__fadeInUp animate__slow">
+          <button type = "button" class = "btn-trans"><a href="#video" style="color: white;">learn more</a> </button>
+          <button type = "button" class = "btn-white"><a href="#team">meet our people</a></button>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- detail section -->
+    <section class = "detail" id="detail">
+      <div class = "container">
+        <div class = "row">
+          <div class = "detail-item wow animate__animated animate__fadeInLeft animate__slow">
+            <span><i class = "fa fa-desktop"></i></span>
+            <h2>Platform</h2>
+            <div class = "line"></div>
+            <p class = "text">The agile platform for RISC-V SoCs, streamlining innovation with seamless reconfigurability and efficiency. Empower your vision with our flexible, next-gen technology solutions.</p>
+          </div>
+
+          <div class = "detail-item wow animate__animated animate__fadeInUp animate__s">
+            <span><i class = "fa fa-spinner"></i></span>
+            <h2>Customization</h2>
+            <div class = "line"></div>
+            <p class = "text">Brings the power of precise customization to your fingertips, offering unmatched control over instruction-level customization alongside optimal power, frequency, and area management.</p>
+          </div>
+
+          <div class = "detail-item wow animate__animated animate__fadeInRight animate__slow">
+            <span><i class = "fa fa-cogs"></i></span>
+            <h2>Automation</h2>
+            <div class = "line"></div>
+            <p class = "text">Elevates design automation, transforming RTL into GDS with precision. Our platform includes comprehensive self-testing capabilities to ensure optimal performance and reliability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of detial section -->
+    
+    <!-- features section -->
+    <section class = "feature" id = "feature">
+      <div class = "container">
+        <div class = "row">
+          <div class = "feature-left wow animate__animated animate__fadeInUp animate__slow">
+            <img src = "assets/chipcronwithname.png" alt = "">
+          </div>
+          <div class = "feature-right wow animate__animated animate__fadeInUp animate__slow">
+            <div class = "title">
+              <h2>Explore our Tool</h2>
+              <p class = "text">Our goal is to enhance the CPU-architects to design the RISC-V SoC without worrying about underlying details. Our tool can generate a full RISC-V compliant SoC and even a minute subset of RISC-V ISA type to support and enhance your performance.</p>
+            </div>
+
+            <div class = "feature-item">
+              <span><i class = "fa fa-edit"></i></span>
+              <div>
+                <h3>Customizable SoC Design</h3>
+                <p class = "text">An innovative platform for designing and optimizing custom RISC-V System-on-Chip (SoC) w.r.t the application and performance requirements in very less time.</p>
+              </div>
+            </div>
+
+            <div class = "feature-item">
+              <span><i class = "fa fa-spinner"></i></span>
+              <div>
+                <h3>Reconfigurable Hardware Acceleration</h3>
+                <p class = "text">Our tool also supports convinent insertion of complex computation accelerators and interface with the C code with new set of instructions for your hardware.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of features section -->
+
+    <!-- sample video section -->
+    <section class = "video" id="video">
+      <div class = "container">
+        <a class = "center popup-youtube" href = "https://drive.google.com/file/d/1lEmjXt1rn-rKeS9Ola_wY5xMIrvfPeoM/view" target="_blank">
+          <i class = "fas fa-play"></i>
+        </a>
+        <h2 class = "wow animate__animated animate__fadeInUp animate__slow">Explore RISC-V</h2>
+        <!-- <p class = "wow animate__animated animate__fadeInUp animate__slow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloribus quo a nesciunt cupiditate odio numquam possimus explicabo. Consectetur, quis!</p> -->
+      </div>
+    </section>
+    <!-- end of sample video section -->
+
+    <!-- team section -->
+    <section class = "team" id = "team">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Meet Best People</h2>
+          <!-- <p class = "text">Lorem ipsum dolor sit amet consectetur</p> -->
+        </div>
+
+        <div class = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-1.jpeg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/mayank-kabra-6993701ab/" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Mayank Kabra</h3>
+              <span>Founder</span>
+              <h5>(ETH Zurich)</h5>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-2.jpeg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Kunal Ghosh</h3>
+              <span>Advisor</span>
+              <h5>(VLSI System Design)</h5>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-3.jpeg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/madhavrrao/" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Madhav Rao</h3>
+              <span>Advisor</span>
+              <h5>(Prof @ IIIT Bangalore)</h5>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-4.jpeg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/asmita-zjigyasu-990b33227/" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Asmita Zjigyasu</h3>
+              <span>Co-founder</span>
+              <h5>(IIIT Bangalore)</h5>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-5.jpeg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/siddharth-kothari-203b12262/" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Siddharth Kothari</h3>
+              <span>RISC-V Architect</span>
+              <h5>(IIIT Bangalore)</h5>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-6.jpeg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/siddharth-kothari-203b12262/" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Sankalp Kothari</h3>
+              <span>RISC-V Architect</span>
+              <h5>(IIIT Bangalore)</h5>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-7.jpeg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/abdul-haq-mohammed-717678142/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Mohammad Abdul</h3>
+              <span>FPGA Engineer</span>
+              <h5>(University of Hyderabad)</h5>
+            </div>
+          </div>
+
+          <div class = "team-item">
+            <div class = "team-img">
+              <img src = "assets/team-8.jpg" alt = "">
+              <div class = "team-icons">
+                <a href = "https://www.linkedin.com/in/abdul-mannan-5b826321b" target="_blank" class = "center">
+                  <i class = "fab fa-linkedin-in"></i>
+                </a>
+                <!-- <a href = "#" class = "center">
+                  <i class = "fab fa-twitter"></i>
+                </a>
+                <a href = "#" class = "center">
+                  <i class = "fab fa-instagram"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class = "team-info">
+              <h3>Abdul Mannan</h3>
+              <span>Analog Engineer</span>
+              <h5>(RVCE Bangalore)</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of team section -->
+
+    <section class = "iiitb" id = "iiitb">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Our Work in Collaboration with <span style="color: #274c77;">IIIT Bangalore</span></h2>
+          <!-- <p class = "text">End-to End-Product from specification to RTL IP design and tapeout.</p> -->
+        </div>
+
+        <div class = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "assets/digital-alarm-clock.jpeg" alt = "">
+            </div>
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta doloribus necessitatibus totam alias unde sint veritatis placeat beatae maiores odio?</p> -->
+            <a class="github-link" href="https://github.com/IswaryaIlanchezhiyan/RISC-V-Digital-Alarm-Clock" style="color: #274c77; text-decoration: underline;" target="_blank">Iswarya I : GitHub</a>
+            <span>Digital Alarm Clock</span>            
+          </div>
+
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "assets/security-background-design_1223-69.jpg" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/NiteshIIITB/Anti-theft_Compartment.git" style="color: #274c77; text-decoration: underline;" target="_blank">Nitesh Sharma : GitHub</a>
+            <span>Anti-theft Compartment</span>
+          </div>
+
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "assets/smart-home-flat-style_24908-55811.jpg" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/Vartika-iiitb/Smart-HVAC-system/edit/main/README.md" style="color: #274c77; text-decoration: underline;" target="_blank">Vartika Barnwal : GitHub</a>
+            <span>Smart HVAC System</span>            
+          </div>
+
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "assets/access-control-system-abstract-concept-vector-illustration-security-system-authorize-entry-login-credentials-electronic-access-password-passphrase-pin-verification-abstract-metaphor_335657-5746.jpg" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/Shant1R/Locker_authenticator_RISCV" style="color: #274c77; text-decoration: underline;" target="_blank">Shant Rakshit : GitHub</a>
+            <span>Passcode Based Authenticator for Locker</span>            
+          </div>
+
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "assets/glucometer-medical-device_24877-82520.jpg" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/alwinshaju08/IIITB_Waterlevel_detector" style="color: #274c77; text-decoration: underline;" target="_blank">Alwin Shaju : GitHub</a>
+            <span>Contactless Water Level Controller</span>            
+          </div>
+
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "./assets/online-games-concept_23-2148533159.jpg" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/bhargav-vlsi/RISCV-Display-controller" style="color: #274c77; text-decoration: underline;" target="_blank">Bhargav D V : GitHub</a>
+            <span>Display Controller</span>            
+          </div>
+
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "assets/knocking-door-concept-illustration_114360-21760.jpg" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/amith-bharadwaj/Hall_sensor_based_Door_Alarm.git" style="color: #274c77; text-decoration: underline;" target="_blank">Amith Bharadwaj : GitHub</a>
+            <span>Hall Effect Sensor-based Door Alarm System</span>            
+          </div>
+
+          <div class = "iiitb-item">
+            <div class = "iiitb-img">
+              <img src = "assets/hand-sanitizer-bottle-washing-gel_23-2148478992.jpg" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/KanishR1/RISCV_Automatic-Sanitizer-Dispenser" style="color: #274c77; text-decoration: underline;" target="_blank">Kanish R : GitHub</a>
+            <span>Automatic Sanitizer Dispenser</span>            
+          </div>
+        </div>
+        <p>For More Projects: <a href="https://docs.google.com/spreadsheets/d/1YvaCsrWAlCbEOCDq8tId89lRPAomfYzaLrGZBUyB8UA/edit?usp=sharing" target="_blank" style="color: blue">Click Here</a></p>
+      </div>
+    </section>
+    
+    <!-- faq section -->
+    <!-- <section class = "faq">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Have Any Questions?</h2>
+          <p class = "text">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+
+        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "faq-item">
+            <div class = "faq-head">
+              <h3>What is Web Development?</h3>
+              <span><i class = "fas fa-plus"></i></span>
+            </div>
+            <div class = "faq-content">
+              <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi quis molestiae autem exercitationem sed, asperiores provident aut, quaerat illo ex reiciendis sapiente voluptas quisquam?</p>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, suscipit! Officiis architecto laboriosam harum officia!</p>
+            </div>
+          </div>
+
+          <div class = "faq-item">
+            <div class = "faq-head">
+              <h3>Which technologies are important for web development?</h3>
+              <span><i class = "fas fa-plus"></i></span>
+            </div>
+            <div class = "faq-content">
+              <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi quis molestiae autem exercitationem sed, asperiores provident aut, quaerat illo ex reiciendis sapiente voluptas quisquam?</p>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, suscipit! Officiis architecto laboriosam harum officia!</p>
+            </div>
+          </div>
+
+          <div class = "faq-item">
+            <div class = "faq-head">
+              <h3>What type of website are good for business purpose?</h3>
+              <span><i class = "fas fa-plus"></i></span>
+            </div>
+            <div class = "faq-content">
+              <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi quis molestiae autem exercitationem sed, asperiores provident aut, quaerat illo ex reiciendis sapiente voluptas quisquam?</p>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, suscipit! Officiis architecto laboriosam harum officia!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- end of faq section -->
+
+    <!-- pricing section -->
+    <section class = "pricing" id = "pricing">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Our Joint Workshop</h2>
+          <p style="width: 50%; text-align: center; margin: auto;" class = "text">Join us for a transformative 6-week journey exploring the depths of RISC-V ISA and its application in product-based environments. Master end-to-end application design to RTL with RISC-V and using our Chipcron tool in our comprehensive six-week workshop</p>
+        </div>
+
+        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
+          <!-- <div class = "pricing-item">
+            <h2>Business Version</h2>
+            <div class = "price">
+              <span>$ 120</span>
+              <span class = "text">Monthly</span>
+            </div>
+            <ul>
+              <li>24 Accounts</li>
+              <li>10 GB Storage</li>
+              <li>Lifetime Support</li>
+              <li>Reliable Service</li>
+            </ul>
+          </div> -->
+
+          <div class = "pricing-item">
+            <h2>Registration Fees</h2>
+            <div class = "price">
+              <span>$ 149</span>
+              <span class = "text">10th May to 21st Jun 2024</span>
+              <a href="https://www.vlsisystemdesign.com/hdp_riscv/" class="submit-btn-wrapper">
+                <button style="padding: 8px 10px; font-size: 16px;" class="submit-btn">Enroll Now</button>
+              </a>              
+              <!-- <button class = "submit-btn">Enroll Now</button> -->
+            </div>
+            <ul>
+              <p class="text">Join us for a transformative 6-week journey<br> exploring the depths of RISC-V ISA and<br> its application in product-based environments.</p>
+              <!-- <li>24 Accounts</li>
+              <li>10 GB Storage</li>
+              <li>Lifetime Support</li>
+              <li>Reliable Service</li> -->
+            </ul>
+          </div>
+
+          <!-- <div class = "pricing-item">
+            <h2>Standard Version</h2>
+            <div class = "price">
+              <span>$ 120</span>
+              <span class = "text">Monthly</span>
+            </div>
+            <ul>
+              <li>24 Accounts</li>
+              <li>10 GB Storage</li>
+              <li>Lifetime Support</li>
+              <li>Reliable Service</li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- end of pricing section -->
+
+    <!-- testimonial section -->
+    <section class = "testimonial" id = "testimonial">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Course Outcome</h2>
+          <p class = "text">End-to End-Product from specification to RTL IP design and tapeout.</p>
+        </div>
+
+        <div class = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "testimonial-item">
+            <div class = "testimonial-img">
+              <img src = "assets/github.png" alt = "">
+            </div>
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta doloribus necessitatibus totam alias unde sint veritatis placeat beatae maiores odio?</p> -->
+            <a class="github-link" href="https://github.com/pavankumarka/RISCV-Hardware_Design_Program_by_VSD" style="color: orange; text-decoration: underline;" target="_blank">Pavan Kumar Arekere : GitHub</a>
+            <span>RISC-V: Hardware Design Program</span>            
+          </div>
+
+          <div class = "testimonial-item">
+            <div class = "testimonial-img">
+              <img src = "assets/github.png" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/davidbroughsmyth/riscv-hdp/tree/main" style="color: orange; text-decoration: underline;" target="_blank">David Brough-Smyth : GitHub</a>
+            <span>RISC-V: Hardware Design Program</span>
+          </div>
+
+          <div class = "testimonial-item">
+            <div class = "testimonial-img">
+              <img src = "assets/github.png" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/BhattSoham/RISCV-HDP" style="color: orange; text-decoration: underline;" target="_blank">Soham Bhattacharya : GitHub</a>
+            <span>RISC-V: Hardware Design Program</span>            
+          </div>
+
+          <div class = "testimonial-item">
+            <div class = "testimonial-img">
+              <img src = "assets/github.png" alt = "">
+            </div>
+            <a class="github-link" href="https://github.com/jaya117/RISC-V.git" style="color: orange; text-decoration: underline;" target="_blank">Jaya Chelani : GitHub</a>
+            <span>RISC-V: Hardware Design Program</span>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of testimonial section -->
+
+    <!-- contact section -->
+    <section class = "contact" id = "contact">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Contact Us</h2>
+          <!-- <p class = "text">Lorem ipsum dolor sit amet consectetur</p> -->
+        </div>
+
+        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "contact-left">
+            <!-- <h2>Send Message Here</h2> -->
+            <form>
+              <input type = "text" class = "form-control" placeholder="Name">
+              <input type = "email" class = "form-control" placeholder="Email">
+              <textarea placeholder="Message" rows = "6"></textarea>
+              <button type = "submit" class = "submit-btn">Send Message</button>
+            </form>
+          </div>
+
+          <!-- <div class = "contact-right">
+            <div>
+              <h2>WhatsApp</h2>
+              <p class = "text">+91 814-620-1749</p>
+            </div> -->
+            <!-- <div>
+              <h2>Call Us</h2>
+              <p class = "text"> +91 814-620-1749</p>
+            </div>
+            <div>
+              <h2>Send Email</h2>
+              <p class = "text">mayankkabra2204@gmail.com</p>
+            </div> -->
+          <!-- </div> --> 
+        </div>
+      </div>
+    </section>
+    <!-- end of contact section -->
+
+    <!-- Sponsored by section -->
+<section class="sponsored-by" id="sponsored-by">
+  <div class="container">
+    <div class="title">
+      <h2 class="wow animate__animated animate__bounceIn animate__slow">Supported By</h2>
+    </div>
+    <div class="row wow animate__animated animate__fadeInUp animate__slow">
+      <!-- Sponsor 1 -->
+      <div class="sponsor-item center">
+        <img class="sponsor-img" src="assets/IIIT_Bangalore_Logo.svg" alt="IIIT Bangalore">
+        <p class="sponsor-name">IIIT Bangalore</p>
+      </div>
+      <!-- Sponsor 2 -->
+      <div class="sponsor-item center">
+        <img class="sponsor-img" src="assets/vsd.jpeg" alt="VLSI System Design">
+        <p class="sponsor-name">VLSI System Design</p>
+      </div>
+      <div class="sponsor-item center">
+        <img class="sponsor-img" src="assets/innovation.jpeg" alt="IIIT Innovation Center">
+        <p class="sponsor-name">IIIT Innovation Center</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of Sponsored by section -->
+
+
+    <!-- footer -->
+    <footer class = "footer center">
+      <div class = "container">
+        <p>Designed by: <a href="https://www.linkedin.com/in/harshita-gupta-2980b21b3/" style="color: orange">Harshita Gupta</a></p>
+        <p class = "text">Copyright &copy; Chipcron Pvt. Ltd. | All Rights Reserved</p>
+        <div class = "footer-links">
+          <a href = "#" class = "center">
+            <i class = "fab fa-facebook-f"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-instagram"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-linkedin"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-twitter"></i>
+          </a>
+          <a href = "#" class = "center">
+            <i class = "fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- jQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src = "resources/jquery-3.5.1.js"></script>
+    <!-- magnific popup -->
+    <!-- <script src = "resources/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script> -->
+    <script src = "resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- owl carousel -->
+    <script src = "resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- wow js -->
+    <script src = "resources/WOW-master/dist/wow.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js" ></script>
+  </body>
+</html>
