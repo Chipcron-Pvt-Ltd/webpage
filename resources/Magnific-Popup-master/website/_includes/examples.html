@@ -1,5 +1,4 @@
-{% if site.url == 'local' %}
-   <!-- <script  src="third-party-libs/zepto.js"></script> -->
+
    <script>
     document.write('<script src=third-party-libs/' +
     ('__proto__' in {} ? 'zepto' : 'jquery') +
@@ -7,14 +6,12 @@
   </script>
   <script src="dist/jquery.magnific-popup.js?v={{site.mfpversion}}"></script>
   
-{% else %}
   <script>
     document.write('<script src=third-party-libs/' +
     ('__proto__' in {} ? 'zepto' : 'jquery') +
     '.min.js><\/script>')
   </script>
   <script src="dist/jquery.magnific-popup.min.js?v={{site.mfpversion}}"></script>
-{% endif %}
 
 <!--
 

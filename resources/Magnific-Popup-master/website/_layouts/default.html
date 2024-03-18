@@ -18,17 +18,12 @@
 
     <link href="https://plus.google.com/102586375605352607718" rel="publisher" />
 
-    {% if site.url == 'local' %}
       <link href="site-assets/site.css?v={{site.mfpversion}}" rel="stylesheet" />
       <link href="dist/magnific-popup.css?v={{site.mfpversion}}" rel="stylesheet" />
-    {% else %}
       <link href="site-assets/all.min.css?v={{site.mfpversion}}" rel="stylesheet" />
-    {% endif %}
 
 
-    {% if page.title == 'Magnific Popup Documentation' %}
     <style type="text/css"> #main-wrapper{background: #FFF;} </style>
-    {% endif %}
 
   </head>
 
@@ -46,32 +41,20 @@
   
   {{page.footer}}
 
-  {% if page.addjs %}
-    {% if site.url == 'local' %}
+
       <script>
         document.write('<script src=third-party-libs/' +
         ('__proto__' in {} ? 'zepto' : 'jquery') +
         '.js><\/script>')
       </script>
       <script src="dist/jquery.magnific-popup.js?v={{site.mfpversion}}"></script>
-    {% else %}
       <script>
         document.write('<script src=third-party-libs/' +
         ('__proto__' in {} ? 'zepto' : 'jquery') +
         '.min.js><\/script>')
       </script>
       <script src="dist/jquery.magnific-popup.min.js?v={{site.mfpversion}}"></script>
-    {% endif %}
-  {% endif %}
 
-  {% include analytics.html %}
-
-  {% if page.buildtool %}
-    {% include build-tool.html %}
-  {% endif %}
-
-  {% if site.url == 'local' %}
     <strong style="display:block; width:100%;text-align:center;">This page is just for tests and should not be used for production!</strong>
-  {% endif %}
   </body>
 </html>
